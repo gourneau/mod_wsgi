@@ -288,7 +288,7 @@ Options which can be supplied to the ``WSGIDaemonProcess`` directive are:
     Apache itself is restarted or shutdown.
 
     Avoid setting this too low. This is because the constant restarting and
-    reloading of your WSGI application may cause unecessary load on your
+    reloading of your WSGI application may cause unnecessary load on your
     system and affect performance.
 
     You can use the ``graceful-timeout`` option in conjunction with this
@@ -312,7 +312,7 @@ Options which can be supplied to the ``WSGIDaemonProcess`` directive are:
 
     Avoid setting this to a low number of requests on a site which handles
     a lot of traffic. This is because the constant restarting and reloading
-    of your WSGI application may cause unecessary load on your system and
+    of your WSGI application may cause unnecessary load on your system and
     affect performance. Only use this option if you have no other choice
     due to a memory usage issue. Stop using it as soon as any memory issue
     has been resolved.
